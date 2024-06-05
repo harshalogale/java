@@ -1,0 +1,18 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>demo.sample</groupId>
+  <artifactId>CapitalGainCalculator</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>CapitalGainCalculator</name>
+  <properties>
+		<testng.version>6.13.1</testng.version>
+	</properties>
+<dependencies>
+	<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+			<scope>test</scope>
+		</dependency>
+</dependencies>
+</project>
